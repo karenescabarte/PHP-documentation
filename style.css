@@ -1,0 +1,191 @@
+/* Reset CSS */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* General Styles */
+
+body {
+	font-family: sans-serif;
+	background-color: #f7f7f7;
+}
+
+.container {
+	max-width: 970px;
+	background-color: #2b2b2b;
+	margin: 0 auto;
+}
+
+/* color light grey */
+nav ul li a {
+	color: rgba(255, 255, 255, 0.658);
+}
+
+/* Selector that Use inline-block */
+nav,
+nav img,
+nav ul,
+nav ul li {
+	display: inline-block;
+}
+
+/* navbar */
+
+nav {
+	width: 970px;
+	background-color: #8892bf;
+	border-bottom: 7px solid #4f5b93;
+	padding: 10px 10px 10px 30px;
+}
+
+nav img {
+	width: 50px;
+	vertical-align: bottom;
+	margin-right: 20px;
+}
+
+nav ul {
+	vertical-align: text-bottom;
+}
+
+nav ul li {
+	padding: 0 15px 0 0;
+}
+
+nav ul li a {
+	font-weight: 500;
+	text-decoration: none;
+}
+
+input[type="search"] {
+	width: 320px;
+	border: 0;
+	outline: none;
+	margin-left: 50px;
+	padding: 5px 8px;
+	vertical-align: bottom;
+}
+
+nav ul li a.highlight-list {
+	background-color: #4f5b93;
+	padding: 15px 10px;
+}
+
+/* main */
+main {
+	margin: 10px 20px 10px 30px;
+	width: 600px;
+	background-color: aliceblue;
+	height: 550px;
+	color: #333;
+	padding: 15px;
+	display: inline-block;
+}
+
+div.title-content {
+	padding: 10px 20px 10px 50px;
+}
+
+div.title-content p {
+	display: inline-block;
+	color: rgba(255, 255, 255, 0.658);
+	font-size: 14px;
+}
+
+.question {
+	margin-left: 420px;
+	padding-right: 30px;
+}
+
+main label {
+	margin-left: 360px;
+}
+main a {
+	color: #4f5b93;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+main p {
+	text-align: justify;
+	margin: 20px 0 0;
+}
+
+.pull-request {
+	margin-left: 390px;
+	text-decoration: none;
+	font-size: 10px;
+}
+.report-bug {
+	text-decoration: none;
+	font-size: 10px;
+}
+
+.simple-tutorial,
+.table-of-contents,
+.notes {
+	border-bottom: 1px dotted grey;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	padding-top: 20px;
+}
+
+main ul li {
+	list-style-position: inside;
+	padding-left: 5px;
+}
+
+.notes {
+	color: rgb(94, 0, 94);
+	font-size: 20px;
+}
+.adding-note {
+	font-size: 10px;
+}
+
+.adding-note img {
+	width: 10px;
+}
+
+span a {
+	border-bottom: 1px solid rgb(22, 80, 188);
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 270px;
+}
+footer {
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer ul li {
+	display: inline;
+	color: rgba(255, 255, 255, 0.503);
+	margin: 10px 5px 20px 0;
+	font-size: 11px;
+}
+
+.copyright-indent {
+	margin-left: 50px;
+}
+
+section.getting-started {
+	display: inline-block;
+	vertical-align: top;
+	color: rgba(255, 255, 255, 0.503);
+}
+section.getting-started h3,
+section.getting-started h4 {
+	border-bottom: 1px dotted;
+	padding: 10px 0;
+}
+.simple-tutorial-title {
+	color: rgb(231, 17, 231);
+	border-bottom: 1px dotted rgb(241, 4, 241);
+	padding: 10px 0;
+}
+.introduction {
+	padding-left: 20px;
+}
